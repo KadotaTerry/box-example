@@ -1,0 +1,49 @@
+body{
+  
+}
+#containerBox{
+ /* positon: static is how it renders on the page| relative renders relative to its parent|absolute same thing as relative but it does the nearest assendant|fix stays where you tell it*/
+  position: fixed;
+  top: 0px;
+  left: 50px;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: #FF7043;
+}
+#containerBox2 {
+  position: static;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: #FF7043;
+}
+  
+
+#contentBox {
+  position: fixed;
+  botton: 20%;
+  left: 10%;
+  top: 0%;
+  border: solid 1px blue;
+  margin-left: 37px;
+  padding: 14px;
+  width: 200px;
+}
+.floatBox{
+  height: 50px;
+  width: 50px;
+  background-color: tomato;
+  display: block;
+  float: left;
+  clear: right;
+  padding: 10px;
+  margin-right: 4px;
+  overflow: auto;
+}
+#clearBox{
+  clear: right;
+  overflow: auto;
+}
